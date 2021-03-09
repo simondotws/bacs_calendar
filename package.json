@@ -4,7 +4,7 @@
   "description": "A simple lookup tool to find processing days in the Bacs calendar.",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Simon Robinson <im@simon.ws> (https://simon.ws/)",
