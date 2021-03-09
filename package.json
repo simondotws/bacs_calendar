@@ -1,0 +1,16 @@
+{
+  "name": "bacs_calendar",
+  "version": "1.0.0",
+  "description": "A simple lookup tool to find processing days in the Bacs calendar.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Simon Robinson <im@simon.ws> (https://simon.ws/)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security"
+  }
+}
