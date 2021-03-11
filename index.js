@@ -32,7 +32,7 @@ app.get('/', function (req, res) {
     if (req.query.date) {
         findDate(req.query.date, (error, data) => {
             if (error) {
-                return res.send({
+                return res.json({
                     date: req.query.date,
                     error
                 })
@@ -43,7 +43,7 @@ app.get('/', function (req, res) {
             })
         })
     } else {
-        return res.send({
+        return res.json({
             error: "date_not_defined"
         })
     }
