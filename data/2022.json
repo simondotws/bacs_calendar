@@ -1299,18 +1299,18 @@
     },
     "2022-09-17" : {
       "processing_day" : false,
-      "next_available_date" : "2022-09-19",
+      "next_available_date" : "2022-09-20",
       "message" : "weekend"
     },
     "2022-09-18" : {
       "processing_day" : false,
-      "next_available_date" : "2022-09-19",
+      "next_available_date" : "2022-09-20",
       "message" : "weekend"
     },
     "2022-09-19" : {
-      "processing_day" : true,
-      "next_available_date" : null,
-      "message" : null
+      "processing_day" : false,
+      "next_available_date" : "2022-09-20",
+      "message" : "uk_public_holiday"
     },
     "2022-09-20" : {
       "processing_day" : true,
