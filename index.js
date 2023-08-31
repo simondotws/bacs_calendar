@@ -15,7 +15,7 @@ const findDate = (date, callback) => {
 
 const loadCalendar = () => {
     try {
-        const dataBuffer = fs.readFileSync('data/data.json')
+        const dataBuffer = fs.readFileSync('data/2023.json')
         const dataJSON = dataBuffer.toString()
         return JSON.parse(dataJSON)
     } catch (e) {
